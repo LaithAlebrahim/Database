@@ -4,7 +4,7 @@ Task 1 : The Schema
 Student(id,name, native_language)
 Course(name, credits)
 Specialization(name)
-Enrollment( course_id, student_id)
+Enrollment(course_name, student_id)
 Takes(spec_id, student_id)    
 
 --------------------------------------------------------------------
