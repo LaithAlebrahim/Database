@@ -142,6 +142,4 @@ WHERE s.native_language = 'English';
 Output:
 
 name
-Operating system
 ITP
-Math
