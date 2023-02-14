@@ -83,7 +83,6 @@ INSERT INTO Takes (spec_name, student_id) VALUES
 a. Find student names for the first 10 students.
 SELECT name 
 FROM Student 
-ORDER BY name 
 LIMIT 10;
 
 Output:
