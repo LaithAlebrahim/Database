@@ -110,7 +110,7 @@ Eve
 c. Find student names of students who have specialization in “Robotics”.
 SELECT s.name 
 FROM Student s 
-JOIN Takes t ON s.name = t.student_name 
+JOIN Takes t ON s.id = t.student_id
 JOIN Specialization sp ON t.spec_name = sp.name 
 WHERE sp.name = 'Robotics';
 
@@ -136,7 +136,7 @@ e. Find all course names where an English native speaker exists.
 SELECT DISTINCT c.name 
 FROM Course c 
 JOIN Enrollment e ON c.name = e.course_name 
-JOIN Student s ON e.student_name = s.name 
+JOIN Student s ON e.student_id = s.id
 WHERE s.native_language = 'English';
 
 Output:
