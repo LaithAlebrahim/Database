@@ -88,11 +88,11 @@ LIMIT 10;
 Output:
 
 name
+Laith
 Alice
 Charlie
 David
 Eve
-Laith
 ----------------------------------------------------------------------
 b. Find students names whose native language is not Russian.
 SELECT name 
